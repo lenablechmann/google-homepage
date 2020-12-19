@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google Homepage</title>
-        <link rel="stylesheet" href="css/homepage.css">
-        <link rel="stylesheet" href="css/reset.css">
-    </head>
-    <body>
-        <div class="top_nav">
-            <a href="#about">About</a>
-            <a href="#store">Store</a>
-            <a href="#gmail">Gmail</a>
-            <a href="#images">Images</a>
-            <button type="button">Menu Placeholder</button>
-            <img src="" alt="Account Icon">
+
+<head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul class="left_bar">
+                <li class="about"><a href="#about">About</a></li>
+                <li class="store"><a href="#store">Store</a></li>
+            </ul>
+            <ul class="right_bar">
+                <li class="gmail"><a href="#gmail">Gmail</a></li>
+                <li class="images"><a href="#images">Images</a></li>
+            </ul>
         </div>
-        <div id="google_logo">
-            <img src="images/google_logo.png" alt="Google Logo">
-        </div>
-        <div class="search_bar">
-            <input type="text">
-            <button type="button">Google Search</button>
-            <button type="button">I'm feeling lucky</button>
-        </div>
-    </body>
-    <footer>
-        <div class="bottom_nav">
-            <a href="#Advertising">Advertising</a>
-            <a href="#how">How Search Works</a>
-            <a href="#privacy">Privacy</a>
-            <a href="#terms">Terms</a>
-            <a href="#settings">Settings</a>
-        </div>
-    </footer>
+    </header>
+
+    </div class="center">
+    <div id="google_logo">
+        <img src="images/google_logo.png" alt="Google Logo">
+    </div>
+    <div id="search_bar">
+        <img class="search_icon" src="/images/search_icon.svg">
+        <input type="text" name="search_bar">
+        <img class="mic_icon" src="/images/mic.svg">
+    </div>
+    <div class="buttons">
+        <button type="button">Google Search</button>
+        <button type="button">I'm feeling lucky</button>
+    </div>
+</body>
+<footer>
+    <div class="bottom_nav">
+        <a href="#Advertising">Advertising</a>
+        <a href="#how">How Search Works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#settings">Settings</a>
+    </div>
+</footer>
+
 </html>
