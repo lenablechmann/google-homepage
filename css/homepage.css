@@ -1,0 +1,17 @@
+.top_nav {
+background-color: pink;
+display: flex;
+}
+#google_logo {
+    display: flex;
+    border: 4px;
+    border-color: blue;
+}
+.search_bar {
+background-color: rgb(255, 126, 126);
+display: flex;
+}
+.bottom_nav {
+background-color: rgb(184, 169, 85);
+display: flex;
+}
