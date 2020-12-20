@@ -1,21 +1,39 @@
 * {
     box-sizing: border-box;
   }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a:link, a:visited {
+    color: #000000DE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ a:hover, a:active {
+    color: #000000DE;
+    text-decoration: underline;
+  }
 div.nav {
     display: flex;
-    background-color: rgb(122, 144, 107);
     overflow: hidden;
     width: 100%;
     justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 12px 25px 15px 7px;
+    margin-top: 4px;
 }
 ul.right_bar {
     margin-left: auto;
     display: flex;
+    align-items: center;
 }
 ul.left_bar {
     display: flex;
+    align-items: center;
 }
 
 #google_logo{
@@ -23,13 +41,12 @@ ul.left_bar {
     height: 233px;
     min-height: 100%;
     max-height: 120%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 65px 0px 25px 0px;
+    margin-top: 12px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
 }
 #search_bar{    
     position: relative;
@@ -37,7 +54,6 @@ ul.left_bar {
     min-width: 334px;
     display: flex;
     justify-content: center;
-    background-color: rgb(187, 255, 0);
     }
 .search_icon {
     position: absolute;
@@ -62,7 +78,9 @@ ul.left_bar {
     bottom: 0;
     width: 100%;
     background-color: rgb(95, 94, 87);
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
