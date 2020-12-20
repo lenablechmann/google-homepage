@@ -54,14 +54,20 @@ ul.left_bar {
     align-items: center;
 }
 #search_bar{    
-    border: solid;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 25px;
     width: 540px;
-    background-color: bisque;
+    min-width: 334px;
+    max-width: 100%;
+    padding: 1px 15px 1px 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     }
+#search_bar:hover {
+    box-shadow: 1px 1px 3px rgb(211, 211, 211);
+}
 #search_bar input {
     position: relative;
    border:none;
@@ -79,7 +85,7 @@ ul.left_bar {
     position: sticky;
     top: 6px;
     left: 0;
-    width: 14px;
+    width: 16px;
 }
 .mic_icon {
     position: sticky;
