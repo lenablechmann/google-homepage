@@ -7,3 +7,9 @@ Practicing the following know-hows/skills through this project:
 - applying basic accessability principles
 - debugging with dev tools in the browser
 - using css reset files
+
+Difficulties I rab into, while doing this project (stuff I'll need to practice more of):
+- placing elements with flexbox
+- dividing the nav bar into two parts, finding out that "float" apparently doesn't work with flexbox
+- making the navs responsive and stacking them well
+- placing icons inside of the search bar container
