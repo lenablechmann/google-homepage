@@ -49,22 +49,31 @@ ul.left_bar {
     align-items: center;
 }
 #search_bar{    
-    position: relative;
-    width: 100%;
-    min-width: 334px;
+    border: solid;
+    width: 540px;
+    background-color: bisque;
     display: flex;
     justify-content: center;
     }
+#search_bar input {
+    position: relative;
+   border:none;
+   padding: 5px;
+   margin: 6px;
+   width: 490px; 
+   box-sizing: border-box;
+   max-width: 100%;
+   min-width: 240px;
+}
 .search_icon {
-    position: absolute;
+    position: sticky;
     top: 6px;
-    left: 8px;
+    left: 0;
     width: 14px;
 }
 .mic_icon {
-    position: absolute;
+    position: sticky;
     top: 6px;
-    right: 8px;
     width: 14px;
 }
 .buttons {
