@@ -8,7 +8,7 @@ Practicing the following know-hows/skills through this project:
 - debugging with dev tools in the browser
 - using css reset files
 
-Difficulties I rab into, while doing this project (stuff I'll need to practice more of):
+Difficulties I ran into, while doing this project (stuff I'll need to practice more of):
 - placing elements with flexbox
 - dividing the nav bar into two parts, finding out that "float" apparently doesn't work with flexbox
 - making the navs responsive and stacking them well
