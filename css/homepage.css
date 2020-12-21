@@ -27,11 +27,13 @@ div.nav {
     margin-top: 4px;
 }
 ul.right_bar {
+    list-style: none;
     margin-left: auto;
     display: flex;
     align-items: center;
 }
 ul.left_bar {
+    list-style: none;
     display: flex;
     align-items: center;
 }
@@ -115,6 +117,7 @@ button:hover {
     border: 1px solid rgb(221, 221, 221);
     border-radius: 5px;
 }
+
 .bottom_nav {
     position: fixed;
     color: #70757A;
@@ -122,10 +125,10 @@ button:hover {
     bottom: 0;
     width: 100%;
     background-color:#f2f2f2;
-    padding: 15px 32px 10px 4px;
+    padding: 5px 32px 5px 4px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    align-items: center;
 }
 a.bottom_link:link, a.bottom_link:visited {
     color: #70757A;
@@ -140,3 +143,11 @@ a.bottom_link:link, a.bottom_link:visited {
     color: #70757A;
     text-decoration: underline;
   } 
+
+.bottom_nav ul {
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-self: center;
+}
